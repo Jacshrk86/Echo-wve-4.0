@@ -25,48 +25,33 @@
       }
       
       /* Toast animations */
-      @keyframes slide-in-from-right {
-        0% {
-          opacity: 0;
-          transform: translateX(100%);
-        }
-        100% {
-          opacity: 1;
-          transform: translateX(0);
-        }
-      }
-      .animate-slide-in-from-right {
-        animation: slide-in-from-right 0.4s ease-out forwards;
-      }
+      @keyframes slide-in-from-right { 0% { opacity: 0; transform: translateX(100%); } 100% { opacity: 1; transform: translateX(0); } }
+      .animate-slide-in-from-right { animation: slide-in-from-right 0.4s ease-out forwards; }
 
       /* Pulse animation for dictation icon */
-      @keyframes pulse-icon {
-        0%, 100% {
-          transform: scale(1);
-        }
-        50% {
-          transform: scale(1.1);
-        }
-      }
-      .animate-pulse-icon {
-        animation: pulse-icon 1.5s ease-in-out infinite;
-      }
+      @keyframes pulse-icon { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.1); } }
+      .animate-pulse-icon { animation: pulse-icon 1.5s ease-in-out infinite; }
 
       /* Existing animation for reference */
-      @keyframes fade-in-up {
-          0% {
-              opacity: 0;
-              transform: translateY(20px);
-          }
-          100% {
-              opacity: 1;
-              transform: translateY(0);
-          }
-      }
-      .animate-fade-in-up {
-          animation: fade-in-up 0.3s ease-out forwards;
-      }
+      @keyframes fade-in-up { 0% { opacity: 0; transform: translateY(20px); } 100% { opacity: 1; transform: translateY(0); } }
+      .animate-fade-in-up { animation: fade-in-up 0.3s ease-out forwards; }
     </style>
+
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8819756573702647"
+        crossorigin="anonymous"></script>
+
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://aistudiocdn.com/react@^19.2.0/",
+        "react": "https://aistudiocdn.com/react@^19.2.0",
+        "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+        "@google/genai": "https://aistudiocdn.com/@google/genai@^1.25.0"
+      }
+    }
+    </script>
+  <link rel="stylesheet" href="/index.css">
+</head>
   <script type="importmap">
 {
   "imports": {
@@ -77,9 +62,7 @@
   }
 }
 </script>
-<link rel="stylesheet" href="/index.css">
-</head><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8819756573702647"
-     crossorigin="anonymous"></script></head>
+</head>
   <body class="bg-gray-50 dark:bg-gray-900">
     <div class="fixed inset-0 -z-10">
       <svg class="w-full h-full" aria-hidden="true">
